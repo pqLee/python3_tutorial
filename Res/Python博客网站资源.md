@@ -1,11 +1,6 @@
 # Python 博客网站资源
 
 
-* **本人编写的 Python 系列文章**
-
-    本草根编写的 Python 文章，里面有各种例子代码
-
-    传送门： [Gitbook](https://www.readwithu.com/)，[github](https://github.com/TwoWater/Python)
 
 * **Python 在线手册**
 
