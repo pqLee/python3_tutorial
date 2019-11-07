@@ -19,7 +19,7 @@
 
 #### 创建
 
-假如我们想要用`scrapy`去爬取某个网站的信息，我们不想再宿主环境总安装scrapy以及requests这些包，那我们就可以使用virtualenv了。
+假如我们想要用`scrapy`去爬取某个网站的信息，我们不想在宿主环境总安装scrapy以及requests这些包，那我们就可以使用virtualenv了。
 
 假设我们把这个虚拟环境放在`~/workspaces/project_env/spider/`目录下
 
@@ -27,7 +27,7 @@
  virtualenv ~/workspaces/project_env/spider/
 ```
 
-这样虚拟环境就创建好了，我们可以看到在这个目录下油三个目录被建立
+这样虚拟环境就创建好了，我们可以看到在这个目录下有三个目录被建立
 
 *   bin：包含一些在这个虚拟环境中可用的命令，以及开启虚拟环境的脚本 `activate`
 *   include：包含虚拟环境中的头文件，包括 `Python` 的头文件
@@ -55,9 +55,10 @@
  deactivate
 ```
 
+
 ## virtualenvwrapper
 
-### 介绍
+### 介绍——管理虚拟化环境的工具
 
 我们刚才了解了`virtualenv`，我觉得比较麻烦，每次开启虚拟环境之前要去虚拟环境所在目录下的 `bin` 目录下 `source`一下 `activate`，这就需要我们记住每个虚拟环境所在的目录。
 
